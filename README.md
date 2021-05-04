@@ -16,7 +16,7 @@
 
 ## :bookmark: Sobre
 
-O <strong>CalculadoraIMC</strong> é uma aplicação que permite calcular o IMC e ver se está com pessoa ideal.
+O <strong>CalculadoraIMC</strong> é uma aplicação que permite calcular o IMC e ver se está com peso corparal ideal.
 
 Essa aplicação foi construída durante o curso <strong> JavaScript e TypeScript do Básico ao avançado </strong> distribuída por  Luiz Otávio Miranda..
 
