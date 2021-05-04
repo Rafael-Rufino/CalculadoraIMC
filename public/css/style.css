@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 18, 18);
+    max-width: 600px;
+    border-radius: 4px;
+    margin: 40px auto;
+    height: 640px;
+    padding: 40px;
+}
+.tabelaImc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 10rem;
+   
+    
+
+}
+.imc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height:20px;
+
+}
+.imc h2{
+    padding-bottom: 15px;
+    color: blueviolet;
+    padding-top: 25px;
+}
+
+.resultadoImc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height:20px;
+
+}
+.resultadoImc h2{
+    padding-bottom: 15px;
+    padding-top: 25px;
+    color:rgb(38, 185, 38);
+}
+.resultadoImc span{
+    color:gray;
+}
+.imc span{
+    color: gray;
+}
+
+.container h1{
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.container p{
+    display: grid;
+    text-align: justify;
+ 
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.container label{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px 5px 0px;
+}
+.container form input{
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    padding: 6px;
+
+    height: 40px;
+
+}
+.container form input:focus{
+    border-radius: 4px;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgb(95, 36, 161);
+
+
+} 
+.container button{
+    margin-top: 20px;
+    height: 45px;
+    background-color: rgb(95, 36, 161);
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color:rgb(76, 20, 141) ;
+}
+
+body, html{
+    background-color: rgb(95, 36, 161);
+    height: 100%;
+    width: 100%;
+
+}
+
+.paragrafoResultado, .bad{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(157, 247, 157);
+    color: green;
+    filter: grayscale(25%);
+    margin-top:10px;
+    padding:10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.bad{
+    background-color: rgb(255, 150, 150);
+    color:red;
+
+}
